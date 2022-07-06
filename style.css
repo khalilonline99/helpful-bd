@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+#hero {
+    background-image: linear-gradient(to bottom, rgba(88, 88, 88, 0.658) 25%,
+            rgba(0, 0, 0, 0.85) 80%), url(images/bannerFlood.png);
+    background-repeat: no-repeat;
+    width: 1200;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-size: cover; */
+}
+
+
+#hero h1 {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+#hero p {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-image: linear-gradient(to bottom, #FF5959, #ff4e37);
+    width: 100px;
+    height: 25px;
+    padding: 10px 10px 10px 33px;
+    margin: 0;
+    border-radius: 4px;
+}
