@@ -29,20 +29,22 @@ body {
 
 #hero p {
     color: #FFFFFF;
+    width: 45%;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: center;
 }
 
 .red-button {
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     background-image: linear-gradient(to bottom, #FF5959, #ff4e37);
-    width: 100px;
-    height: 25px;
-    padding: 10px 10px 10px 33px;
+    /* width: 100px;
+    height: 25px; */
+    padding: 15px 25px;
     margin: 0;
     border-radius: 4px;
 }
@@ -95,6 +97,9 @@ body {
 }
 
 #other-amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
 }
 
@@ -103,7 +108,9 @@ body {
     background-color: transparent;
     border-bottom: 1px solid #DADADA;
     padding: 5px;
-    
+    margin-bottom: 25px;
+    text-align: center;
+
 }
 
 ::placeholder {
@@ -112,6 +119,86 @@ body {
     opacity: 1;
 }
 
+/* Donate Plan top part*/
+
+#donate-plan-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+#donate-plan-top h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+#donate-plan-top p {
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    text-align: center;
+    width: 45%;
+    margin-top: 0;
+}
+
+
+/* Donate Plan Cards Part  */
+
+.donate-plan-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.donate-plan-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.donate-plan-para {
+    text-align: left;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+
+}
+
+#card-food {
+    background-color: #4f9da62e;
+    width: 360px;
+    height: 300px;
+    padding: 60px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#card-shelter {
+    background-color: #FF59592e;
+    width: 360px;
+    height: 300px;
+    padding: 60px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#card-education {
+    background-color: #FFF4D6;
+    width: 360px;
+    height: 300px;
+    padding: 60px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Lobster', cursive;
