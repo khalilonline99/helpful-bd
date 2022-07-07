@@ -328,7 +328,7 @@ body {
 
 #email-form {
     min-height: 25px;
-    min-width: 245 px;
+    width: 250px;
     border-radius: 3px;
     background-color: #D9D9D9;
     color: #AA9F9F;
@@ -337,18 +337,7 @@ body {
     padding-left: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-}
-
-#submit-form {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    background-image: linear-gradient(to bottom, #FF5959, #ff4e37);
-    padding: 10px 18px;
-    margin: 0;
-    border-radius: 4px;
-    border-color: transparent;
+    border: 0;
 }
 
 #footer {
