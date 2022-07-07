@@ -328,7 +328,7 @@ body {
 
 #email-form {
     min-height: 25px;
-    width: 250px;
+    min-width: 250px;
     border-radius: 3px;
     background-color: #D9D9D9;
     color: #AA9F9F;
