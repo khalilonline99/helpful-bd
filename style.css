@@ -32,7 +32,7 @@ body {
     width: 45%;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
-    font-weight: 100;
+    font-weight: 200;
     text-align: center;
 }
 
@@ -207,6 +207,83 @@ body {
 }
 
 
+/* Testimonial parts */
+#testiomonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0px;
+}
+
+#testi-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testi-top h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+#testi-top p {
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#testi-all-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+
+
+.testimonial-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px #707070;
+    width: 270px;
+    height: 275px;
+    border-radius: 5px;
+    border-top: 6px solid #ff4e37;
+    margin: 0;
+}
+
+.testimonial-cards blockquote {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+    width: 80%;
+}
+
+.testimonial-cards h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+.testimonial-cards h4 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: 0;
+}
+
 
 /* Get update part */
 
@@ -215,6 +292,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #get-update-top {
@@ -262,7 +340,6 @@ body {
 }
 
 #submit-form {
-    /* height: 25px; */
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
@@ -281,7 +358,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 85px;
 }
 
 #footer h2 {
@@ -291,12 +368,13 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 2px;
+    margin-top: 25px;
 }
 
 #footer p {
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 100;
 }
 
